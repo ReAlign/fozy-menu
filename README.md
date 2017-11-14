@@ -1,6 +1,14 @@
 # fozy-menu
 
+[![NPM version][npm-image]][npm-url]
+
+[npm-url]: https://www.npmjs.com/package/fozy-menu
+[npm-image]: https://img.shields.io/npm/v/fozy-menu.svg
 ## Usage
+
+```javascript
+import FozyMenu from 'fozy-menu';
+```
 
 #### init(pageList, listKey)
 > 默认从 list 初始化 fozy 配置
@@ -9,6 +17,9 @@
 > 默认从 list 初始化 menu 配置
 
 ```javascript
+FozyMenu.init(pageList, listKey);
+FozyMenu.menu(pageList, opt);
+
 pageList = [
     {
         type: 'index',
