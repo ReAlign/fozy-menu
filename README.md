@@ -7,8 +7,6 @@
 ## Usage
 
 ```javascript
-import FozyMenu from 'fozy-menu';
-// or
 let FozyMenu = require('fozy-menu');
 ```
 
