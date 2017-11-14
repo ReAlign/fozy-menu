@@ -8,6 +8,8 @@
 
 ```javascript
 import FozyMenu from 'fozy-menu';
+// or
+let FozyMenu = require(`${basePath}node_modules/fozy-menu/src/index`);
 ```
 
 #### init(pageList, listKey)

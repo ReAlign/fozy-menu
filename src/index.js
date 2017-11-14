@@ -1,4 +1,4 @@
-import _ from './lib/util';
+let _ = require('./lib/util');
 
 let FozyMenu = {
     init: (pageList, listKey) => _.concatList(pageList, listKey),
