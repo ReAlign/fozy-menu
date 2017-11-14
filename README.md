@@ -9,7 +9,7 @@
 ```javascript
 import FozyMenu from 'fozy-menu';
 // or
-let FozyMenu = require(`${basePath}node_modules/fozy-menu/src/index`);
+let FozyMenu = require('fozy-menu');
 ```
 
 #### init(pageList, listKey)
