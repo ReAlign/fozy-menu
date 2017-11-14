@@ -1,7 +1,7 @@
 import _ from './lib/util';
 
 let FozyMenu = {
-    init: (pageList, ListKey) => _.concatList(pageList, ListKey),
+    init: (pageList, listKey) => _.concatList(pageList, listKey),
     initFromMap: (map) => _.joinMapList(map),
     menu: (pageList, opt) => _.menuForEach(pageList, opt)
 };
