@@ -4,6 +4,13 @@
 
 [npm-url]: https://www.npmjs.com/package/fozy-menu
 [npm-image]: https://img.shields.io/npm/v/fozy-menu.svg
+
+## 简介
+
+> fozy 多份配置数据转换
+
+使用 `fozy` 来 `mock` 数据，需要维护 `fozy config` and `同步数据` 等实际内容大致相同的数据，但是实际情况是，这几套数据，除了形式上的不一致，基本内容几乎是一样的，多人协作开发，很难有人完全去维护多份数据，所以，想通过工具，进行格式上的转化，开发者只需要维护一份数据即可
+
 ## Usage
 
 ```javascript
